@@ -1,0 +1,4 @@
+local server  --> maven --> tomcat
+cd spring*
+mvn clean
+mvn tomcat7:run

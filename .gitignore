@@ -1,0 +1,22 @@
+# IntelliJ IDEA
+.idea/
+
+# Java compiled files
+*.class
+
+# Build output
+out/
+target/
+
+# Maven
+.mvn/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+jfs-lectures/src/atcont/
+jfs-lectures/src/codeninja/
+jfs-lectures/src/leet/
+jfs-lectures/src/personal/sep15/

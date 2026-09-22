@@ -1,0 +1,37 @@
+introduction
+an interface in java is a blueprint of a class that contains behavior (methods) but generally does not contain implementation .
+an interface tells a class: these are the methods you must implement .
+it also support multiple inheritance in java.
+a class must implement all abstract methods of an interface.
+all variables in an interface are public static and final by default
+interface can have default static and private methods.
+
+relationship bw class and interface
+class extend another class, an interface can extend interface
+however a class can implement
+
+
+use case:class
+real world entity with attributes and behavior (methods)
+use a class when you need to create objects that hold state and perform actions
+classes are used for defining templates for objects with specific functionality and properties.
+
+// user define data type
+class mydata{
+int x;
+string ab;
+}
+
+
+// mydata md=new mydata();
+md.x=10;
+md.abc="om"
+
+interface
+user an interface when you need to define a contract for behavior that multiple classes can implement .
+interface is ideal for achieving abstraction and multiple inheritance
+to use interface we use implements keywords
+
+
+
+deault in java interface automatically
